@@ -1,0 +1,14 @@
+package exerciseSix;
+
+// Describe the reason why the following try- catch block does not compile:
+
+try {
+// The following statement throws NumberFormatException
+int luckNumber = Integer.parseInt("Hello");
+} catch (Exception e) {
+// Handle the exception here
+} catch (NumberFormatException e) {
+// Handle the exception here
+}
+
+// ANSWER: ALways catch the specific exception first.<

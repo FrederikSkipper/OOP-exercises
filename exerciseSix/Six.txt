@@ -1,0 +1,23 @@
+a.
+try {
+int x = 100 / y;
+int[] es = new int[n];
+e = es[Math.round(x)];
+} catch (ArithmeticException e1) {
+...
+} catch (NegativeArraySizeException e2) {
+...
+} catch (java.util.NoSuchElementException e3) {
+...
+}
+
+b. 
+try {
+int x = 100 / y;
+int[] es = new int[n];
+e = es[Math.round(x)];
+} catch (Exception e) {
+    ...
+    }
+
+ANSWER: A is the best one, since it account for more types of errors.

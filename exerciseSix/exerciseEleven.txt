@@ -1,0 +1,5 @@
+You are wriIng code for a public method, and
+you want to validate the method's arguments. Will you use assertion or exception to
+achieve it? Describe your response.
+
+ANSWER: exception 
